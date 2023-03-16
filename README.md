@@ -1,7 +1,7 @@
 ## End to End Machine Learning Projects with the demo code of implementation
 
 1) Created the virtual environment
-----------------> venv
+----------------> venv \n
 2) README.md
     used to store the description 
 3) .gitignore
@@ -13,4 +13,3 @@
     After it is runned it creates the MLProjects.egg-info , where we find the stuffs that are related to setup.py and requirements.txt
 6) src
     consist of actual project content
-    
