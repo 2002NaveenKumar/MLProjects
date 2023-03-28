@@ -1,5 +1,5 @@
 import sys #provide various fns and variables that are usef to manipulate different parts of the python runtime environemt.
-
+#from src.logger import logging
 
 def error_mess_detail(error, error_detail:sys):
     _,_,exc_tb = error_detail.exc_info() #this will return you the three values, we ignore the first two values and we consider only the third value(consist of which file,line the exception has occured)
@@ -15,3 +15,4 @@ class CustomException(Exception):
 
     def __str__(self):
         return self.error_message 
+    
